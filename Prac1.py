@@ -31,4 +31,9 @@ if b < a and b<c:
 if c < a and c<b:
     print ("el menor es",c)
 
+num1= int(input("Ingrese el primer numero"))
+
+num2= int(input("Ingrese el segundo numero"))
+
+print("la suma de los numero es:", num1 + num2)
     #comentario sss
