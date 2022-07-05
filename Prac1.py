@@ -31,5 +31,4 @@ if b < a and b<c:
 if c < a and c<b:
     print ("el menor es",c)
 
-print("Hola uli")
     #comentario sss
