@@ -5,6 +5,8 @@ if(num <0):
 else:
     print("Tu numero es positivo")
 
+print("--------------------------")
+
 parOimpar = int(input("Ingrese un numero para conocer si es par o impar:"))
 if(parOimpar % 2 == 0):
     print("Numero par")
@@ -12,9 +14,10 @@ else:
     print("Numero impar")
 
 #menor o mayor de tres numeros 
+print("--------------------------")
 a = int(input("ingrese un numero "))
-b = int(input("ingrese un numero "))
-c = int(input("ingrese un numero "))
+b = int(input("ingrese otro numero "))
+c = int(input("ingrese otro numero "))
 if a > b and a>c:
     print ("el mayor es",a)
 if b > a and b >c:
